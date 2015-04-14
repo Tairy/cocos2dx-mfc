@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="33" height="17" tilewidth="32" tileheight="32" nextobjectid="67">
+ <tileset firstgid="1" name="xd007" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\res\xd007.png" width="256" height="768"/>
+ </tileset>
+ <tileset firstgid="162" name="xd007" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\res\xd007.png" width="256" height="768"/>
+ </tileset>
+ <tileset firstgid="323" name="xd001" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\res\xd001.png" width="256" height="1750"/>
+ </tileset>
+ <tileset firstgid="694" name="xd004" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\res\xd004.png" width="256" height="992"/>
+ </tileset>
+ <tileset firstgid="904" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\res\meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="33" height="17">
+  <data encoding="base64" compression="zlib">
+   eJyby8DAMHcUj+JRPIpH8SgexaN4iGEA+lJYHQ==
+  </data>
+ </layer>
+ <layer name="workspace" width="33" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt07kNwCAQRFH6b4gjMHbAURZfImArWBPMk34y+YRwREqUqTju1kOVXvocd6tRp0HTcZc76RebfiGWfrHpF/9aC9KGpw==
+  </data>
+ </layer>
+ <layer name="gasstation" width="33" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAqGBjjLyMBwjnFg3XAFaP/VAXbDKIAAAOrLA0k=
+  </data>
+ </layer>
+ <layer name="road" width="33" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwXcYEJgZD4udbQQR3bDQOCBDgdcbqAnGHUDfjcMdHoYzRcDmx5w8UeaGwZbehiofAEAkc+diw==
+  </data>
+ </layer>
+ <objectgroup name="cars">
+  <object id="58" name="car7" type="car" x="82" y="10" width="20" height="16"/>
+  <object id="59" name="car2" type="car" x="47" y="9.5" width="20" height="13"/>
+  <object id="60" name="car3" type="car" x="15" y="40.5" width="20" height="14"/>
+  <object id="61" name="car4" type="car" x="47" y="37.5" width="21" height="16"/>
+  <object id="62" name="car5" type="car" x="18" y="73.5" width="22" height="15"/>
+  <object id="63" name="car6" type="car" x="45" y="72.5" width="22" height="13"/>
+  <object id="64" name="car1" type="car" x="13" y="9.5" width="19" height="11"/>
+  <object id="65" name="car8" type="car" x="79" y="37.5" width="21" height="15"/>
+  <object id="66" name="car9" type="car" x="79" y="74.5" width="25" height="14"/>
+ </objectgroup>
+ <layer name="meta" width="33" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYECADuaBwQyjbsDqBlzuoaX4QIOBDgdcbqB3Ohh1w+BNDwMBBmM4DFR6wMUfaW4YbOlhIADIDQD1qMdG
+  </data>
+ </layer>
+</map>

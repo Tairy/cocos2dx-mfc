@@ -1,0 +1,258 @@
+﻿“MFCGame.exe”: 已加载“D:\cocos2d-x-2.2.6\projects\TairyGame\proj.win32\Debug.win32\MFCGame.exe”，已加载符号。
+“MFCGame.exe”: 已加载“C:\Windows\System32\ntdll.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\kernel32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\KernelBase.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“D:\cocos2d-x-2.2.6\projects\TairyGame\proj.win32\Debug.win32\libcocos2d.dll”，已加载符号。
+“MFCGame.exe”: 已加载“C:\Windows\System32\opengl32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\msvcrt.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\advapi32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\sechost.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\rpcrt4.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\gdi32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\user32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\lpk.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\usp10.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\glu32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\ddraw.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\dciman32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\setupapi.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\cfgmgr32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\oleaut32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\ole32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\devobj.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\dwmapi.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“D:\cocos2d-x-2.2.6\projects\TairyGame\proj.win32\Debug.win32\glew32.dll”，未使用调试信息生成二进制文件。
+“MFCGame.exe”: 已加载“D:\cocos2d-x-2.2.6\projects\TairyGame\proj.win32\Debug.win32\zlib1.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“D:\cocos2d-x-2.2.6\projects\TairyGame\proj.win32\Debug.win32\libtiff.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\winsxs\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_50934f2ebcb7eb57\msvcr90.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“D:\cocos2d-x-2.2.6\projects\TairyGame\proj.win32\Debug.win32\pthreadVCE2.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\wsock32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\ws2_32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\nsi.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\shell32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\shlwapi.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\msvcp100d.dll”，已加载符号。
+“MFCGame.exe”: 已加载“C:\Windows\System32\msvcr100d.dll”，已加载符号。
+“MFCGame.exe”: 已加载“C:\Windows\System32\mfc100ud.dll”，已加载符号。
+“MFCGame.exe”: 已加载“C:\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\comctl32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\msimg32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\imm32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\msctf.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\uxtheme.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\mfc100chs.dll”，未使用调试信息生成二进制文件。
+“MFCGame.exe”: 已加载“C:\Windows\System32\cryptbase.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\ig75icd32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\igdusc32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\wtsapi32.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\winsta.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已加载“C:\Windows\System32\version.dll”，Cannot find or open the PDB file
+“MFCGame.exe”: 已卸载“C:\Windows\System32\version.dll”
+OpenGL version = 4.3.0 - Build 10.18.10.3960
+Ready for GLSL
+Ready for OpenGL 2.0
+
+<dict>
+	cocos2d.x.version: cocos2d-x 2.2.6
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.vendor: Intel
+	gl.renderer: Intel(R) HD Graphics 4400
+	gl.version: 4.3.0 - Build 10.18.10.3960
+	gl.max_texture_size: 16384
+	gl.max_texture_units: 192
+	gl.supports_PVRTC: false
+	gl.supports_NPOT: true
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_vertex_array_object: true
+</dict>
+cocos2d: CCSpriteBatchNode: resizing TextureAtlas capacity from [177] to [237].
+cocos2d: CCSpriteBatchNode: resizing TextureAtlas capacity from [237] to [317].
+cocos2d: CCSpriteBatchNode: resizing TextureAtlas capacity from [317] to [424].
+cocos2d: CCSpriteBatchNode: resizing TextureAtlas capacity from [424] to [566].
+线程 'Win32 线程' (0x3054) 已退出，返回值为 0 (0x0)。
+线程 'Win32 线程' (0x37c8) 已退出，返回值为 0 (0x0)。
+线程 'Win32 线程' (0x31f8) 已退出，返回值为 0 (0x0)。
+线程 'Win32 线程' (0x30b8) 已退出，返回值为 0 (0x0)。
+线程 'Win32 线程' (0x3060) 已退出，返回值为 0 (0x0)。
+线程 'Win32 线程' (0x1c18) 已退出，返回值为 0 (0x0)。
+MFCGame.exe 中的 0x7523812f 处最可能的异常: 0x0000071A: 远程过程调用被取消。
+线程 'Win32 线程' (0x2444) 已退出，返回值为 0 (0x0)。
+线程 'Win32 线程' (0x1524) 已退出，返回值为 0 (0x0)。
+线程 'Win32 线程' (0xda0) 已退出，返回值为 0 (0x0)。
+线程 'Win32 线程' (0x3b3c) 已退出，返回值为 0 (0x0)。
+cocos2d: deallocing CCDirector 01D2FCC8
+线程 'Win32 线程' (0xa60) 已退出，返回值为 0 (0x0)。
+线程 'Win32 线程' (0x25fc) 已退出，返回值为 0 (0x0)。
+Detected memory leaks!
+Dumping objects ->
+{1586} normal block at 0x0682BB20, 64 bytes long.
+ Data: <   ?            > A4 86 8E 3F 00 00 00 00 00 00 00 00 00 00 00 00 
+{1585} normal block at 0x0682BAB8, 40 bytes long.
+ Data: <        p       > 20 BB 82 06 00 00 00 00 70 90 82 06 08 90 82 06 
+{1567} normal block at 0x0682B7F0, 64 bytes long.
+ Data: <  : Z           > 1C C2 3A 0F 5A 00 00 00 00 00 00 00 01 00 00 00 
+{1454} normal block at 0x0682B670, 12 bytes long.
+ Data: <  :         > AC A2 3A 0F 00 00 00 00 80 B4 82 06 
+{1453} normal block at 0x0682B480, 436 bytes long.
+ Data: <    X           > 8C F1 BF 00 58 00 00 00 00 00 00 00 01 00 00 00 
+{1415} normal block at 0x06828D78, 16 bytes long.
+ Data: <                > C0 CF 82 06 00 00 00 00 00 00 00 00 00 00 00 00 
+{1414} normal block at 0x06828D30, 12 bytes long.
+ Data: <        x   > 01 00 00 00 04 00 00 00 78 8D 82 06 
+{1411} normal block at 0x06827FB0, 24 bytes long.
+ Data: <D 9 T           > 44 12 39 0F 54 00 00 00 00 00 00 00 01 00 00 00 
+{1410} normal block at 0x0682FD98, 4032 bytes long.
+ Data: <                > 00 00 00 00 01 00 00 00 02 00 00 00 03 00 00 00 
+{1409} normal block at 0x0682E2D0, 6792 bytes long.
+ Data: <                > 00 00 01 00 02 00 03 00 02 00 01 00 04 00 05 00 
+{1408} normal block at 0x06833228, 54336 bytes long.
+ Data: <       D        > 00 00 00 00 00 00 10 44 00 00 00 00 FF FF FF FF 
+{1399} normal block at 0x06827F68, 12 bytes long.
+ Data: <  :     @   > AC A2 3A 0F 00 00 00 00 40 8B 82 06 
+{1398} normal block at 0x06828B40, 436 bytes long.
+ Data: <L}: S           > 4C 7D 3A 0F 53 00 00 00 00 00 00 00 01 00 00 00 
+{1395} normal block at 0x0682D1B0, 12 bytes long.
+ Data: <            > F8 01 00 00 F0 03 00 00 98 FD 82 06 
+{1394} normal block at 0x0682D158, 28 bytes long.
+ Data: <  9 R           > 00 20 39 0F 52 00 00 00 00 00 00 00 01 00 00 00 
+{1391} normal block at 0x0682AE80, 708 bytes long.
+ Data: <                > 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{1390} normal block at 0x06828690, 12 bytes long.
+ Data: <            > 00 00 00 00 B1 00 00 00 80 AE 82 06 
+{1387} normal block at 0x06828638, 24 bytes long.
+ Data: <D 9 Q           > 44 12 39 0F 51 00 00 00 00 00 00 00 01 00 00 00 
+{1386} normal block at 0x06828840, 708 bytes long.
+ Data: <                > 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{1385} normal block at 0x0682E120, 12 bytes long.
+ Data: <        @   > 00 00 00 00 B1 00 00 00 40 88 82 06 
+{1382} normal block at 0x0682C408, 24 bytes long.
+ Data: <D 9 P           > 44 12 39 0F 50 00 00 00 00 00 00 00 01 00 00 00 
+{1379} normal block at 0x068283A8, 52 bytes long.
+ Data: <L : O           > 4C C7 3A 0F 4F 00 00 00 00 00 00 00 01 00 00 00 
+{1373} normal block at 0x06828490, 64 bytes long.
+ Data: <  : N           > 1C C2 3A 0F 4E 00 00 00 00 00 00 00 02 00 00 00 
+{1300} normal block at 0x06828E88, 8 bytes long.
+ Data: <        > D8 D0 82 06 00 00 00 00 
+{1299} normal block at 0x068285A8, 12 bytes long.
+ Data: <  :         > AC A2 3A 0F 00 00 00 00 C0 CF 82 06 
+{1298} normal block at 0x0682CFC0, 344 bytes long.
+ Data: <l : L           > 6C E6 3A 0F 4C 00 00 00 00 00 00 00 01 00 00 00 
+{1294} normal block at 0x0682E168, 296 bytes long.
+ Data: <y               > 79 00 CD CD CD CD CD CD CD CD CD CD CD CD CD CD 
+{1292} normal block at 0x0682DF00, 8 bytes long.
+ Data: <        > C4 E0 82 06 00 00 00 00 
+{1291} normal block at 0x0682E0B0, 52 bytes long.
+ Data: < ,9 K           > 9C 2C 39 0F 4B 00 00 00 00 00 00 00 01 00 00 00 
+{1288} normal block at 0x0682DF48, 296 bytes long.
+ Data: <x               > 78 00 CD CD CD CD CD CD CD CD CD CD CD CD CD CD 
+{1286} normal block at 0x0682DCE0, 8 bytes long.
+ Data: <        > A4 DE 82 06 00 00 00 00 
+{1285} normal block at 0x0682DE90, 52 bytes long.
+ Data: < ,9 J           > 9C 2C 39 0F 4A 00 00 00 00 00 00 00 01 00 00 00 
+{1283} normal block at 0x0682DD28, 296 bytes long.
+ Data: <gid             > 67 69 64 00 CD CD CD CD CD CD CD CD CD CD CD CD 
+{1281} normal block at 0x0682DAC0, 8 bytes long.
+ Data: <        > 84 DC 82 06 00 00 00 00 
+{1279} normal block at 0x0682DC70, 52 bytes long.
+ Data: < ,9 I           > 9C 2C 39 0F 49 00 00 00 00 00 00 00 01 00 00 00 
+{1278} normal block at 0x0682DB08, 296 bytes long.
+ Data: <height          > 68 65 69 67 68 74 00 CD CD CD CD CD CD CD CD CD 
+{1276} normal block at 0x0682D8A0, 8 bytes long.
+ Data: <d       > 64 DA 82 06 00 00 00 00 
+{1274} normal block at 0x0682DA50, 52 bytes long.
+ Data: < ,9 H           > 9C 2C 39 0F 48 00 00 00 00 00 00 00 01 00 00 00 
+{1273} normal block at 0x0682D8E8, 296 bytes long.
+ Data: <width           > 77 69 64 74 68 00 CD CD CD CD CD CD CD CD CD CD 
+{1271} normal block at 0x0682C058, 8 bytes long.
+ Data: <D       > 44 D8 82 06 00 00 00 00 
+{1269} normal block at 0x0682D830, 52 bytes long.
+ Data: < ,9 G           > 9C 2C 39 0F 47 00 00 00 00 00 00 00 01 00 00 00 
+{1268} normal block at 0x0682D6C8, 296 bytes long.
+ Data: <type            > 74 79 70 65 00 CD CD CD CD CD CD CD CD CD CD CD 
+{1266} normal block at 0x0682BF70, 8 bytes long.
+ Data: <l       > 6C D6 82 06 00 00 00 00 
+{1264} normal block at 0x0682D658, 52 bytes long.
+ Data: < ,9 F           > 9C 2C 39 0F 46 00 00 00 00 00 00 00 01 00 00 00 
+{1263} normal block at 0x0682D498, 384 bytes long.
+ Data: <                > 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{1262} normal block at 0x068245B0, 44 bytes long.
+ Data: <                > 98 D4 82 06 20 00 00 00 05 00 00 00 07 00 00 00 
+{1261} normal block at 0x0682D330, 296 bytes long.
+ Data: <name            > 6E 61 6D 65 00 CD CD CD CD CD CD CD CD CD CD CD 
+{1258} normal block at 0x06828318, 8 bytes long.
+ Data: <        > 14 D2 82 06 00 00 00 00 
+{1256} normal block at 0x0682D200, 52 bytes long.
+ Data: < ,9 E           > 9C 2C 39 0F 45 00 00 00 00 00 00 00 01 00 00 00 
+{1255} normal block at 0x0682C468, 28 bytes long.
+ Data: <  9 D           > 00 20 39 0F 44 00 00 00 00 00 00 00 01 00 00 00 
+{1219} normal block at 0x0682C000, 28 bytes long.
+ Data: <  9 C           > 00 20 39 0F 43 00 00 00 00 00 00 00 01 00 00 00 
+{1218} normal block at 0x06828E00, 4 bytes long.
+ Data: <h   > 68 C4 82 06 
+{1217} normal block at 0x0682BFB8, 12 bytes long.
+ Data: <            > 01 00 00 00 01 00 00 00 00 8E 82 06 
+{1214} normal block at 0x0682C3B0, 24 bytes long.
+ Data: <D 9 B           > 44 12 39 0F 42 00 00 00 00 00 00 00 01 00 00 00 
+{1213} normal block at 0x06828360, 8 bytes long.
+ Data: <T       > 54 C3 82 06 00 00 00 00 
+{1212} normal block at 0x0682C330, 68 bytes long.
+ Data: <  : A           > E4 EC 3A 0F 41 00 00 00 00 00 00 00 01 00 00 00 
+{1195} normal block at 0x0682C7A0, 2016 bytes long.
+ Data: <        0       > 1E 00 00 00 1E 00 00 00 30 00 00 00 1E 00 00 00 
+{1108} normal block at 0x0682C4E8, 96 bytes long.
+ Data: <D:\cocos2d-x-2.2> 44 3A 5C 63 6F 63 6F 73 32 64 2D 78 2D 32 2E 32 
+{1063} normal block at 0x0682C740, 32 bytes long.
+ Data: <tmw_desert_spaci> 74 6D 77 5F 64 65 73 65 72 74 5F 73 70 61 63 69 
+{1061} normal block at 0x06828E40, 8 bytes long.
+ Data: <        > D8 C6 82 06 00 00 00 00 
+{1060} normal block at 0x068285F0, 8 bytes long.
+ Data: <        > A4 C6 82 06 00 00 00 00 
+{1059} normal block at 0x0682C690, 112 bytes long.
+ Data: <  : >           > 88 F1 3A 0F 3E 00 00 00 00 00 00 00 01 00 00 00 
+{882} normal block at 0x06827F10, 28 bytes long.
+ Data: <  9 =           > 00 20 39 0F 3D 00 00 00 00 00 00 00 01 00 00 00 
+{881} normal block at 0x06827EB8, 28 bytes long.
+ Data: <  9 <           > 00 20 39 0F 3C 00 00 00 00 00 00 00 01 00 00 00 
+{880} normal block at 0x06827E68, 16 bytes long.
+ Data: <0               > 30 C3 82 06 00 00 00 00 00 00 00 00 00 00 00 00 
+{879} normal block at 0x06828220, 12 bytes long.
+ Data: <        h~  > 01 00 00 00 04 00 00 00 68 7E 82 06 
+{876} normal block at 0x068281C8, 24 bytes long.
+ Data: <D 9 ;           > 44 12 39 0F 3B 00 00 00 00 00 00 00 01 00 00 00 
+{807} normal block at 0x06827A98, 12 bytes long.
+ Data: <  :     Xy  > AC A2 3A 0F 00 00 00 00 58 79 82 06 
+{806} normal block at 0x06827958, 260 bytes long.
+ Data: <\   7           > 5C 0D C0 00 37 00 00 00 00 00 00 00 01 00 00 00 
+{774} normal block at 0x068233D0, 4 bytes long.
+ Data: <    > 00 00 00 00 
+{736} normal block at 0x06829E58, 384 bytes long.
+ Data: <                > 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{735} normal block at 0x06829DF0, 44 bytes long.
+ Data: <X               > 58 9E 82 06 20 00 00 00 05 00 00 00 01 00 00 00 
+{734} normal block at 0x06824D20, 4 bytes long.
+ Data: <    > 00 00 00 00 
+{733} normal block at 0x068299A0, 40 bytes long.
+ Data: < M              > 20 4D 82 06 01 00 00 00 F0 9D 82 06 00 00 00 00 
+{732} normal block at 0x06829D68, 72 bytes long.
+ Data: <dR: )           > 64 52 3A 0F 29 00 00 00 00 00 00 00 02 00 00 00 
+{714} normal block at 0x068290D8, 384 bytes long.
+ Data: <                > 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{713} normal block at 0x06829070, 44 bytes long.
+ Data: <                > D8 90 82 06 20 00 00 00 05 00 00 00 02 00 00 00 
+{712} normal block at 0x06823348, 4 bytes long.
+ Data: <    > 00 00 00 00 
+{711} normal block at 0x06829008, 40 bytes long.
+ Data: <H3      p       > 48 33 82 06 01 00 00 00 70 90 82 06 00 00 00 00 
+{710} normal block at 0x06828F80, 72 bytes long.
+ Data: <dR: &           > 64 52 3A 0F 26 00 00 00 00 00 00 00 03 00 00 00 
+{471} normal block at 0x068227E8, 32 bytes long.
+ Data: < Q9             > BC 51 39 0F 0D 00 00 00 00 00 00 00 04 00 00 00 
+{470} normal block at 0x06822770, 56 bytes long.
+ Data: <  ;             > 9C 13 3B 0F 0C 00 00 00 00 00 00 00 04 00 00 00 
+{135} normal block at 0x01D24AF0, 8 bytes long.
+ Data: <  A     > A8 DB 41 0F 00 00 00 00 
+{134} normal block at 0x01D24AA8, 8 bytes long.
+ Data: <( A     > 28 D5 41 0F 00 00 00 00 
+Object dump complete.
+程序“[1548] MFCGame.exe: 本机”已退出，返回值为 0 (0x0)。

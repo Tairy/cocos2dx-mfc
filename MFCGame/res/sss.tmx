@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="2">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\res\tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <layer name="Background" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmulOwzAMgAuIbVBgHBOnNJg4VBhHH2mPxqPwaDhSKllR09iu0wTWH5+qtonjb7GrVtqyKIolUNvjDXAbgTtnHW1M3Aqdr4An4E2RZ+ARrVFF8nlBcVfOmhrgmLVdb4j9YHhsLGSPcT/4+/Fe0HoW0/V8+BhoP5Yo7msR7ts1MAGmlhlh3tpZJzbmt7rvOJoxn8AJMLec2utd8yri+lKmQo6RxxFxzoyY00Qwb/4HaPZ7GzyuBuSakI/hEthnevh6XRtuDm3PEQm1IpL1tTxSI/V4IDBkHKmHeef5ChyHjLPtdZUbo0dejB55MXrkxeiRF6NHXnA9doDdDNlj5GjGHgCHGVIij1COJRqzAM4TgvMy5xfI48wzB3L+dj2wfyoaD+p4yPmny8Pdt7brnLEh/rtHaHzIIxRXoyYo8WN5aNY2x8N33ubRt145NSj1ovRHn3rl9pJ0v3Lz8M3h7g+1PzT6heOh0R/aHn16qo8Ht1b61n4sj1LZg9JLqerKV/+cXpDMycFDq5die0jvx/KAd/lNif4rUtpzH01M6X0JbsxFx/NKUt+pMR7ut1bjkfLbkIv5dvwFtdQI0w==
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <object id="1" x="80" y="299"/>
+ </objectgroup>
+</map>
