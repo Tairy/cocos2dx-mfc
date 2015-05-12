@@ -72,6 +72,12 @@
     <ClInclude Include="HudLayer.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="PathSprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PathSearchInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MFCGame.cpp">
@@ -90,6 +96,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="HudLayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSearchInfo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
