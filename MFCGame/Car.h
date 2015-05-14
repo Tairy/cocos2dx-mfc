@@ -15,5 +15,5 @@ public:
 	WalkState m_walkState;*/
 public:
 	Car(CCSprite* sprite);
-	//bool is_busy;
+	bool is_busy;
 };

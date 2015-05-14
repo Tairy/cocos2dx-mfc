@@ -1,11 +1,11 @@
-﻿生成启动时间为 2015/5/14 15:28:31。
+﻿生成启动时间为 2015/5/14 21:05:21。
      1>项目“D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\MFCGame.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
-         正在对“Debug.win32\MFCGame.unsuccessfulbuild”执行 Touch 任务。
+         正在创建“Debug.win32\MFCGame.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          所有输出均为最新。
-         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\cocos2dx" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\cocos2dx\include" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\cocos2dx\kazmath\include" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\cocos2dx\platform\win32" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\cocos2dx\platform\third_party\win32" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\external" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\external\chipmunk\include\chipmunk" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\CocosDenshion\include" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\extensions" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\Classes" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\\" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\\" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug.win32\MFCGame.pch" /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\..\Classes\HelloWorldScene.cpp
-         HelloWorldScene.cpp
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\cocos2dx" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\cocos2dx\include" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\cocos2dx\kazmath\include" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\cocos2dx\platform\win32" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\cocos2dx\platform\third_party\win32" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\external" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\external\chipmunk\include\chipmunk" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\CocosDenshion\include" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\..\..\..\extensions" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\Classes" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\..\\" /I"D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\\" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug.win32\MFCGame.pch" /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt Command.cpp
+         Command.cpp
      1>D:\Microsoft Visual Studio 10.0\VC\include\stdint.h(72): warning C4005: “INT8_MIN”: 宏重定义
                  C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\intsafe.h(144) : 参见“INT8_MIN”的前一个定义
      1>D:\Microsoft Visual Studio 10.0\VC\include\stdint.h(73): warning C4005: “INT16_MIN”: 宏重定义
@@ -71,4 +71,4 @@
 
 生成成功。
 
-已用时间 00:00:17.84
+已用时间 00:00:16.13
