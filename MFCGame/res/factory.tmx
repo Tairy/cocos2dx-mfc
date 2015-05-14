@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="33" height="17" tilewidth="32" tileheight="32" nextobjectid="67">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="36" height="18" tilewidth="32" tileheight="32" nextobjectid="89">
  <tileset firstgid="1" name="xd007" tilewidth="32" tileheight="32" spacing="1" margin="1">
   <image source="D:\cocos2d-x-2.2.6\projects\TairyGame\MFCGame\MFCGame\res\xd007.png" width="256" height="768"/>
  </tileset>
@@ -20,40 +20,58 @@
    </properties>
   </tile>
  </tileset>
- <layer name="background" width="33" height="17">
+ <layer name="background" width="36" height="18">
   <data encoding="base64" compression="zlib">
-   eJyby8DAMHcUj+JRPIpH8SgexaN4iGEA+lJYHQ==
+   eJzVlFEOgDAIQxcPsftfwvsZ/5RQaDfUSUIkWsrTOFqLY9/u10yXxamLUvGqDsTj6Wzt3UM9SIMYnuCJNLau4BmZG9UK0xs8iCmLFXgqvg/rp/Io/iP/ObN/2LOLZqF+5px5+q95WL/RmOVBfsrs7NlKPOp+9vpZlr/xZBlFL+K5vlc3ye4gz2+Gh80DVuKdBg==
   </data>
  </layer>
- <layer name="workspace" width="33" height="17">
+ <layer name="workspace" width="36" height="18">
   <data encoding="base64" compression="zlib">
-   eJzt07kNwCAQRFH6b4gjMHbAURZfImArWBPMk34y+YRwREqUqTju1kOVXvocd6tRp0HTcZc76RebfiGWfrHpF/9aC9KGpw==
+   eJztk0EKgDAMBPP/D2k9VHvQ+qxuId4aMLYUhB0YAnPeiJC3bGrQ+7CoQe/obhHhDg+YJnaLE14ww3tiJ9+oG1ulvWdP9/6FBfdMehi1Z2+34J7J3ymveIad
   </data>
  </layer>
- <layer name="gasstation" width="33" height="17">
+ <layer name="gasstation" width="36" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAqGBjjLyMBwjnFg3XAFaP/VAXbDKIAAAOrLA0k=
+   eJxjYBgFo2AUjIJRMApGAaXgLCMDwznGgXYFAlwBuuXqIHLPKBhaAABOUANJ
   </data>
  </layer>
- <layer name="road" width="33" height="17">
+ <layer name="road" width="36" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgwXcYEJgZD4udbQQR3bDQOCBDgdcbqAnGHUDfjcMdHoYzRcDmx5w8UeaGwZbehiofAEAkc+diw==
+   eJy7wcTAcAOKBwO4MeoevGDUPfgBsnsI4YtQTIoeYsxEDgtqmk1t9wxE3Iy6B7970O0e6PQzlNxDb4DP7lH3EI6viyTg4Zqe0cufwQYAZMTVQQ==
   </data>
  </layer>
- <objectgroup name="cars">
-  <object id="58" name="car7" type="car" x="82" y="10" width="20" height="16"/>
-  <object id="59" name="car2" type="car" x="47" y="9.5" width="20" height="13"/>
-  <object id="60" name="car3" type="car" x="15" y="40.5" width="20" height="14"/>
-  <object id="61" name="car4" type="car" x="47" y="37.5" width="21" height="16"/>
-  <object id="62" name="car5" type="car" x="18" y="73.5" width="22" height="15"/>
-  <object id="63" name="car6" type="car" x="45" y="72.5" width="22" height="13"/>
-  <object id="64" name="car1" type="car" x="13" y="9.5" width="19" height="11"/>
-  <object id="65" name="car8" type="car" x="79" y="37.5" width="21" height="15"/>
-  <object id="66" name="car9" type="car" x="79" y="74.5" width="25" height="14"/>
+ <objectgroup name="workspace">
+  <object id="70" name="workspace1" x="97" y="63" width="129" height="91"/>
+  <object id="71" name="workspace2" x="288.5" y="66.5" width="129" height="91"/>
+  <object id="72" name="workspace3" x="479.5" y="65.5" width="129" height="91"/>
+  <object id="73" name="workspace4" x="672.5" y="62.5" width="129" height="91"/>
+  <object id="74" name="workspace5" x="864.5" y="62.5" width="129" height="91"/>
+  <object id="75" name="workspace6" x="98.5" y="223.5" width="129" height="91"/>
+  <object id="76" name="workspace7" x="288.5" y="225.5" width="129" height="91"/>
+  <object id="77" name="workspace8" x="480.5" y="224.5" width="129" height="91"/>
+  <object id="78" name="workspace9" x="672.5" y="225.5" width="129" height="91"/>
+  <object id="79" name="workspace10" x="863.5" y="223.5" width="129" height="91"/>
+  <object id="80" name="workspace5" x="864.5" y="62.5" width="129" height="91"/>
+  <object id="81" name="workspace11" x="96.5" y="386.5" width="129" height="91"/>
+  <object id="82" name="workspace12" x="286.5" y="384.5" width="129" height="91"/>
+  <object id="83" name="workspace13" x="480.5" y="386.5" width="129" height="91"/>
+  <object id="84" name="workspace14" x="671.5" y="385.5" width="129" height="91"/>
+  <object id="85" name="workspace15" x="862.5" y="385.5" width="129" height="91"/>
  </objectgroup>
- <layer name="meta" width="33" height="17">
+ <layer name="meta" width="36" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYECADuaBwQyjbsDqBlzuoaX4QIOBDgdcbqB3Ohh1w+BNDwMBBmM4DFR6wMUfaW4YbOlhIADIDQD1qMdG
+   eJxjYECADuaBxwyj7hl1D5XcM5BgKLhnMKSVUfcQ756BBEPBPYMhvpDlRt2DP74GEgxW9ww2DABmtdeQ
   </data>
  </layer>
+ <layer name="stop" width="36" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjAL6g9OMA+0CBLgIdMulQeQeEBgNn6EFRuNrFAw3AAACbgdU
+  </data>
+ </layer>
+ <objectgroup name="stop">
+  <object id="86" name="stop1" x="1088" y="223" width="62" height="254"/>
+ </objectgroup>
+ <objectgroup name="gassataion">
+  <object id="87" name="gasstation1" x="-5" y="421" width="66" height="56"/>
+ </objectgroup>
 </map>

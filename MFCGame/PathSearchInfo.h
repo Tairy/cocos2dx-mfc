@@ -1,115 +1,92 @@
-#include "cocos2d.h"
-#include "vector"
+#pragma once
+#include "StaticValue.h"
 #include "PathSprite.h"
-using namespace std;
+#include "MathLogic.h"
+#include "cocos2d.h"
+#include <functional>
+
+//#include "paddle.h"
 USING_NS_CC;
-#define MAP_WIDTH 50 //要比tmx中的map大
-#define MAP_HEIGHT 50
-#define PLAYER_COUNT 3
-class PathSearchInfo//寻路类(主要负责寻路的参数和逻辑)
+class PathSearchInfo:public CCNode//寻路类(主要负责寻路的参数和逻辑)
 {
 public:
-    
-    static int m_startX;//开始点
-    static int m_startY;
-    
-    static int m_endX;//结束点
-    static int m_endY;
- 
-    static CCSize m_mapSize;//地图大小
-    static CCSize m_tileSize;//地图的块大小
-    static vector<PathSprite*> m_openList;//开放列表(里面存放相邻节点)
-    static PathSprite* m_inspectArray[MAP_WIDTH][MAP_HEIGHT];//全部需要检测的点
-    static vector<PathSprite*> m_pathList;//路径列表
-    static vector<PathSprite*> m_haveInspectList;//检测过的列表
+	PathSearchInfo(CCTMXTiledMap* tiledMap);
 
-    static float calculateTwoObjDistance(PathSprite* obj1, PathSprite* obj2)//计算两个物体间的距离
-    {
-        //        float _offsetX = obj1->m_x - obj2->m_x;
-        //        float _offsetY = obj1->m_y - obj2->m_y;
-        //        return sqrt( _offsetX * _offsetX + _offsetY * _offsetY);
-        
-        float _x = abs(obj2->m_x - obj1->m_x);
-        float _y = abs(obj2->m_y - obj1->m_y);
-        
-        return _x + _y;
-    }
-    static void inspectTheAdjacentNodes(PathSprite* node, PathSprite* adjacent, PathSprite* endNode)//把相邻的节点放入开放节点中
-    {
-        if (adjacent)
-        {
-            float _x = abs(endNode->m_x - adjacent->m_x);
-            float _y = abs(endNode->m_y - adjacent->m_y);
-            
-            float F , G, H1, H2, H3;
-            adjacent->m_costToSource = node->m_costToSource + calculateTwoObjDistance(node, adjacent);//获得累计的路程
-            G = adjacent->m_costToSource;
-            
-            //三种算法, 感觉H2不错
-            H1 = _x + _y;
-            H2 = hypot(_x, _y);
-            H3 = max(_x, _y);
-            
-#if 1 //A*算法 = Dijkstra算法 + 最佳优先搜索
-            F = G + H2;
-#endif
-#if 0//Dijkstra算法
-            F = G;
-#endif
-#if 0//最佳优先搜索
-            F = H2;
-#endif
-            adjacent->m_FValue = F;
-            
-            adjacent->m_parent = node;//设置父节点
-            adjacent->m_sprite->setColor(ccORANGE);//搜寻过的节点设为橘色(测试用)
-            m_haveInspectList.push_back(adjacent);
-            node->m_child = adjacent;//设置子节点
+private:
+	int m_playerMoveStep;//人物当前的行程的索引
+	std::function<void(CCPoint)> m_moveDone;//移动结束回调
+	bool m_isSetMoveDoneCallback;
 
-            PathSearchInfo::m_inspectArray[adjacent->m_x][adjacent->m_y] = NULL;//把检测过的点从检测列表中删除
-            PathSearchInfo::m_openList.push_back(adjacent);//加入开放列表
-        }
-    }
-    static PathSprite* getMinPathFormOpenList()//从开放节点中获取F值最小值的点
-    {
-        if (m_openList.size()>0) {
-            PathSprite* _sp =* m_openList.begin();
-            for (vector<PathSprite*>::iterator iter = m_openList.begin(); iter !=  m_openList.end(); iter++)
-            {
-                if ((*iter)->m_FValue < _sp->m_FValue)
-                {
-                    _sp = *iter;
-                }
-            }
-            return _sp;
-        }
-        else
-        {
-            return NULL;
-        }
-        
-    }
-    static PathSprite* getObjFromInspectArray(int x, int y)//根据横纵坐标从检测数组中获取点
-    {
-        if (x >=0 && y >=0 && x < m_mapSize.width && y < m_mapSize.height) {
-            return m_inspectArray[x][y];
-        }
-        return  NULL;
-    }
-    static bool removeObjFromOpenList( PathSprite* sprite)//从开放列表中移除对象
-    {
-        if (!sprite) {
-            return  false;
-        }
-        for (vector<PathSprite*>::iterator iter = m_openList.begin(); iter !=  m_openList.end(); iter++)
-        {
-            if (*iter == sprite)
-            {
-                m_openList.erase(iter);
-                return true;
-            }
-        }
-        return false;
-        
-    }  
+	std::function<void(vector<PathSprite*>)> m_drawPath;//画线回调  调试用
+	bool m_isSetDrawPathCallback;
+
+	//std::function<void(CCPoint point, Paddle* selectObj)> m_selectObj;//选中物体回调
+	bool m_isSetSelectObjCallback;
+
+	CCTMXTiledMap* m_map;//地图
+	CCTMXLayer* m_road;//道路
+	CCSize m_mapSize;//地图大小
+	CCSize m_tileSize;//地图的块大小
+	vector<PathSprite*> m_openList;//开放列表(里面存放相邻节点)
+	PathSprite* m_inspectArray[MAP_WIDTH][MAP_HEIGHT];//全部需要检测的点
+	vector<PathSprite*> m_pathList;//路径列表
+	vector<PathSprite*> m_haveInspectList;//检测过的列表
+	PathSprite* m_moveObj;//移动的物体
+	bool m_enableMove;//是否能移动
+	bool m_isMoving;//是否正在移动
+public:
+	CCTMXTiledMap* getMap()
+	{
+		return m_map;
+	}
+	void setEnableMove(bool isEnable)
+	{
+		m_enableMove = isEnable;
+	}
+
+	bool getEnableMove()
+	{
+		return m_enableMove;
+	}
+
+	bool getIsMoving()
+	{
+		return m_isMoving;
+	}
+ 	void setMoveDoneCallback(function<void(CCPoint)>& pFunc);//设置回调
+
+	void setDrawPathCallback(function<void(vector<PathSprite*>)>& pFunc);//设置回调
+	
+//	void setSelectCallback(function<void(CCPoint point, Paddle* selectObj)> &pFunc);//设置回调
+
+	void initMapObject(const char* layerName, const char* objName);////初始化地图里的物体(设置深度,设置物体回调函数)
+
+	CCPoint getMapPositionByWorldPosition(CCPoint point);//根据世界坐标得到地图坐标
+
+	CCPoint getWorldPositionByMapPosition(CCPoint point);//根据地图坐标得到世界坐标
+
+	void pathFunction( CCPoint point, PathSprite* obj );//计算路径函数
+
+private:
+	void calculatePath();//计算路径
+	
+	float calculateTwoObjDistance(PathSprite* obj1, PathSprite* obj2);//计算两个物体间的距离
+
+	void inspectTheAdjacentNodes(PathSprite* node, PathSprite* adjacent, PathSprite* endNode);//把相邻的节点放入开放节点中
+	
+	PathSprite* getMinPathFormOpenList();//从开放节点中获取F值最小值的点
+	
+	PathSprite* getObjFromInspectArray(int x, int y);//根据横纵坐标从检测数组中获取点
+	
+	bool removeObjFromOpenList( PathSprite* sprite);//从开放列表中移除对象
+	
+	void resetInspectArray();//重置检测列表
+	
+	bool detectWhetherCanPassBetweenTwoPoints(CCPoint p1, CCPoint p2);//检测2个位置中是否有障碍物
+	
+	void resetObjPosition();//重置玩家位置
+	
+	void clearPath();//清除路径
+
+	void moveObj();//移动实现函数
 };

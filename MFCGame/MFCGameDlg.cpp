@@ -105,7 +105,7 @@ BOOL CMFCGameDlg::OnInitDialog()
 	AppDelegate app;
     CCEGLView* eglView = CCEGLView::sharedOpenGLView();
     eglView->setViewName("SBGame");
-    eglView->setFrameSize(1056, 544);
+    eglView->setFrameSize(1152, 576);
     CCApplication::sharedApplication()->run();
 
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE

@@ -78,6 +78,30 @@
     <ClInclude Include="PathSearchInfo.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MathLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticValue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Paddle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Workspace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasstation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MFCGame.cpp">
@@ -102,6 +126,30 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="PathSearchInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MathLogic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticValue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Paddle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Workspace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasstation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stop.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

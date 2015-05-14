@@ -116,27 +116,43 @@
     <ClInclude Include="..\..\Classes\AppDelegate.h" />
     <ClInclude Include="..\..\Classes\AppMacros.h" />
     <ClInclude Include="..\..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="Gasstation.h" />
     <ClInclude Include="HudLayer.h" />
+    <ClInclude Include="MathLogic.h" />
     <ClInclude Include="MFCGame.h" />
     <ClInclude Include="MFCGameDlg.h" />
+    <ClInclude Include="Paddle.h" />
     <ClInclude Include="PathSearchInfo.h" />
     <ClInclude Include="PathSprite.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="StaticValue.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="stop.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Workspace.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="Gasstation.cpp" />
     <ClCompile Include="HudLayer.cpp" />
+    <ClCompile Include="MathLogic.cpp" />
     <ClCompile Include="MFCGame.cpp" />
     <ClCompile Include="MFCGameDlg.cpp" />
+    <ClCompile Include="Paddle.cpp" />
     <ClCompile Include="PathSearchInfo.cpp" />
     <ClCompile Include="PathSprite.cpp" />
+    <ClCompile Include="StaticValue.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="stop.cpp" />
+    <ClCompile Include="Workspace.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="MFCGame.rc" />
